@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.aptana.feature.rcp:3.1.3.201205292243-7n7hFDHFFaDpxVopbNccXz0uIWif"/>
+		<item value="com.aptana.feature.studio:3.1.3.201205292222-7E7E787ICGPCYKWML6RQRHBZmz0R"/>
+		<item value="com.aptana.feature:3.1.3.1338353394-BN7N8LBbVOz-Jo2Tbr1DC34EXsr-"/>
+		<item value="com.aptana.php.feature:3.1.3.201205292213-7D-27CEEPH8ODQU"/>
+		<item value="org.eclipse.help:1.3.0.v20110530-0844-7i7uFFmFFl8nvqbDpEqTvx"/>
+		<item value="org.eclipse.platform:3.7.2.v20120207-1839-9gF7UHPDFxGjd-PqDr2jX_4yKaumkoHTz04_q-q"/>
+		<item value="org.eclipse.rcp:3.7.2.v20120120-1424-9DB5FmnFq5JCf1UA38R-kz0S0272"/>
+		<item value="org.python.pydev.django_templates.feature:2.6.0.2012052102"/>
+		<item value="org.python.pydev.feature:2.6.0.2012052102"/>
+		<item value="org.radrails.rails:3.1.3.201205292218-7e-7Q7f53hEtS27X"/>
+	</list>
+</section>

@@ -1,0 +1,94 @@
+!SESSION 2013-01-18 01:32:24.399 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_37
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/ayoola_al/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/ayoola_al/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-18 01:33:08.709
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.aptana.editor.php.epl 4 0 2013-01-18 02:05:33.543
+!MESSAGE (Build 3.1.3.201205292243) [ERROR] com.aptana.editor.php.epl/debug Error creating a PHP marker
+
+!ENTRY com.aptana.editor.php.epl 4 0 2013-01-18 02:39:24.759
+!MESSAGE (Build 3.1.3.201205292243) [ERROR] com.aptana.editor.php.epl/debug Error creating a PHP marker
+
+!ENTRY com.aptana.parsing 4 0 2013-01-18 21:14:49.155
+!MESSAGE (Build 3.1.3.201205292243) [ERROR] com.aptana.parsing/debug/parsing Expecting source to be available for parsing.
+!SESSION 2013-01-19 00:56:17.604 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_37
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/ayoola_al/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/ayoola_al/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-01-19 00:56:24.536
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-19 00:56:32.071
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.aptana.editor.php.epl 4 0 2013-01-19 01:08:36.048
+!MESSAGE (Build 3.1.3.201205292243) [ERROR] com.aptana.editor.php.epl/debug Error creating a PHP marker
+
+!ENTRY com.aptana.editor.php.epl 4 0 2013-01-19 01:08:55.105
+!MESSAGE (Build 3.1.3.201205292243) [ERROR] com.aptana.editor.php.epl/debug Error creating a PHP marker
+!SESSION 2013-01-19 04:01:12.894 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_37
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/ayoola_al/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/ayoola_al/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-19 04:01:31.580
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface.text 4 0 2013-01-19 04:01:32.243
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.util.TreeMap$PrivateEntryIterator.nextEntry(TreeMap.java:1100)
+	at java.util.TreeMap$KeyIterator.next(TreeMap.java:1154)
+	at com.aptana.editor.php.internal.contentAssist.ContentAssistUtils.initializeBuiltinsIndex(ContentAssistUtils.java:286)
+	at com.aptana.editor.php.internal.contentAssist.ContentAssistUtils.selectModelElements(ContentAssistUtils.java:84)
+	at com.aptana.editor.php.internal.ui.hover.PHPTextHover.getPHPElementsAt(PHPTextHover.java:195)
+	at com.aptana.editor.php.internal.ui.hover.PHPTextHover.getHoverInfo2(PHPTextHover.java:155)
+	at com.aptana.editor.common.CommonSourceViewerConfiguration$TextHover.getHoverInfo2(CommonSourceViewerConfiguration.java:674)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SESSION 2013-01-19 04:24:58.436 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_37
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/ayoola_al/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/ayoola_al/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-19 04:25:49.328
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.osgi 2 1 2013-01-19 04:31:00.274
+!MESSAGE NLS missing message: HttpServerSettingsTab_Title in: com.aptana.js.debug.ui.internal.launchConfigurations.messages
+
+!ENTRY com.aptana.webserver.core 4 0 2013-01-19 04:33:54.371
+!MESSAGE (Build 3.1.3.201205292243) [ERROR]  POST method is not supported
+!STACK 0
+org.apache.http.MethodNotSupportedException: POST method is not supported
+	at com.aptana.webserver.internal.core.builtin.LocalWebServerHttpRequestHandler.handle(LocalWebServerHttpRequestHandler.java:135)
+	at org.apache.http.nio.protocol.BufferingHttpServiceHandler$RequestHandlerAdaptor.handle(BufferingHttpServiceHandler.java:189)
+	at org.apache.http.nio.protocol.SimpleNHttpRequestHandler.handle(SimpleNHttpRequestHandler.java:51)
+	at org.apache.http.nio.protocol.AsyncNHttpServiceHandler.processRequest(AsyncNHttpServiceHandler.java:453)
+	at org.apache.http.nio.protocol.AsyncNHttpServiceHandler.inputReady(AsyncNHttpServiceHandler.java:316)
+	at org.apache.http.nio.protocol.BufferingHttpServiceHandler.inputReady(BufferingHttpServiceHandler.java:131)
+	at org.apache.http.impl.nio.DefaultNHttpServerConnection.consumeInput(DefaultNHttpServerConnection.java:175)
+	at org.apache.http.impl.nio.DefaultServerIOEventDispatch.inputReady(DefaultServerIOEventDispatch.java:154)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:340)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:318)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:278)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:542)
+	at java.lang.Thread.run(Thread.java:680)

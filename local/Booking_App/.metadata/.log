@@ -92,3 +92,216 @@ org.apache.http.MethodNotSupportedException: POST method is not supported
 	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
 	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:542)
 	at java.lang.Thread.run(Thread.java:680)
+
+!ENTRY com.aptana.webserver.core 4 0 2013-01-19 04:41:10.195
+!MESSAGE (Build 3.1.3.201205292243) [ERROR]  POST method is not supported
+!STACK 0
+org.apache.http.MethodNotSupportedException: POST method is not supported
+	at com.aptana.webserver.internal.core.builtin.LocalWebServerHttpRequestHandler.handle(LocalWebServerHttpRequestHandler.java:135)
+	at org.apache.http.nio.protocol.BufferingHttpServiceHandler$RequestHandlerAdaptor.handle(BufferingHttpServiceHandler.java:189)
+	at org.apache.http.nio.protocol.SimpleNHttpRequestHandler.handle(SimpleNHttpRequestHandler.java:51)
+	at org.apache.http.nio.protocol.AsyncNHttpServiceHandler.processRequest(AsyncNHttpServiceHandler.java:453)
+	at org.apache.http.nio.protocol.AsyncNHttpServiceHandler.inputReady(AsyncNHttpServiceHandler.java:316)
+	at org.apache.http.nio.protocol.BufferingHttpServiceHandler.inputReady(BufferingHttpServiceHandler.java:131)
+	at org.apache.http.impl.nio.DefaultNHttpServerConnection.consumeInput(DefaultNHttpServerConnection.java:175)
+	at org.apache.http.impl.nio.DefaultServerIOEventDispatch.inputReady(DefaultServerIOEventDispatch.java:154)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:340)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:318)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:278)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:542)
+	at java.lang.Thread.run(Thread.java:680)
+
+!ENTRY com.aptana.webserver.core 4 0 2013-01-19 04:46:33.884
+!MESSAGE (Build 3.1.3.201205292243) [ERROR]  POST method is not supported
+!STACK 0
+org.apache.http.MethodNotSupportedException: POST method is not supported
+	at com.aptana.webserver.internal.core.builtin.LocalWebServerHttpRequestHandler.handle(LocalWebServerHttpRequestHandler.java:135)
+	at org.apache.http.nio.protocol.BufferingHttpServiceHandler$RequestHandlerAdaptor.handle(BufferingHttpServiceHandler.java:189)
+	at org.apache.http.nio.protocol.SimpleNHttpRequestHandler.handle(SimpleNHttpRequestHandler.java:51)
+	at org.apache.http.nio.protocol.AsyncNHttpServiceHandler.processRequest(AsyncNHttpServiceHandler.java:453)
+	at org.apache.http.nio.protocol.AsyncNHttpServiceHandler.inputReady(AsyncNHttpServiceHandler.java:316)
+	at org.apache.http.nio.protocol.BufferingHttpServiceHandler.inputReady(BufferingHttpServiceHandler.java:131)
+	at org.apache.http.impl.nio.DefaultNHttpServerConnection.consumeInput(DefaultNHttpServerConnection.java:175)
+	at org.apache.http.impl.nio.DefaultServerIOEventDispatch.inputReady(DefaultServerIOEventDispatch.java:154)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:340)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:318)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:278)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:542)
+	at java.lang.Thread.run(Thread.java:680)
+
+!ENTRY com.aptana.webserver.core 4 0 2013-01-19 04:49:09.208
+!MESSAGE (Build 3.1.3.201205292243) [ERROR]  POST method is not supported
+!STACK 0
+org.apache.http.MethodNotSupportedException: POST method is not supported
+	at com.aptana.webserver.internal.core.builtin.LocalWebServerHttpRequestHandler.handle(LocalWebServerHttpRequestHandler.java:135)
+	at org.apache.http.nio.protocol.BufferingHttpServiceHandler$RequestHandlerAdaptor.handle(BufferingHttpServiceHandler.java:189)
+	at org.apache.http.nio.protocol.SimpleNHttpRequestHandler.handle(SimpleNHttpRequestHandler.java:51)
+	at org.apache.http.nio.protocol.AsyncNHttpServiceHandler.processRequest(AsyncNHttpServiceHandler.java:453)
+	at org.apache.http.nio.protocol.AsyncNHttpServiceHandler.inputReady(AsyncNHttpServiceHandler.java:316)
+	at org.apache.http.nio.protocol.BufferingHttpServiceHandler.inputReady(BufferingHttpServiceHandler.java:131)
+	at org.apache.http.impl.nio.DefaultNHttpServerConnection.consumeInput(DefaultNHttpServerConnection.java:175)
+	at org.apache.http.impl.nio.DefaultServerIOEventDispatch.inputReady(DefaultServerIOEventDispatch.java:154)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:340)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:318)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:278)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:542)
+	at java.lang.Thread.run(Thread.java:680)
+
+!ENTRY com.aptana.webserver.core 4 0 2013-01-19 04:49:34.617
+!MESSAGE (Build 3.1.3.201205292243) [ERROR]  POST method is not supported
+!STACK 0
+org.apache.http.MethodNotSupportedException: POST method is not supported
+	at com.aptana.webserver.internal.core.builtin.LocalWebServerHttpRequestHandler.handle(LocalWebServerHttpRequestHandler.java:135)
+	at org.apache.http.nio.protocol.BufferingHttpServiceHandler$RequestHandlerAdaptor.handle(BufferingHttpServiceHandler.java:189)
+	at org.apache.http.nio.protocol.SimpleNHttpRequestHandler.handle(SimpleNHttpRequestHandler.java:51)
+	at org.apache.http.nio.protocol.AsyncNHttpServiceHandler.processRequest(AsyncNHttpServiceHandler.java:453)
+	at org.apache.http.nio.protocol.AsyncNHttpServiceHandler.inputReady(AsyncNHttpServiceHandler.java:316)
+	at org.apache.http.nio.protocol.BufferingHttpServiceHandler.inputReady(BufferingHttpServiceHandler.java:131)
+	at org.apache.http.impl.nio.DefaultNHttpServerConnection.consumeInput(DefaultNHttpServerConnection.java:175)
+	at org.apache.http.impl.nio.DefaultServerIOEventDispatch.inputReady(DefaultServerIOEventDispatch.java:154)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:340)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:318)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:278)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:542)
+	at java.lang.Thread.run(Thread.java:680)
+
+!ENTRY com.aptana.webserver.core 4 0 2013-01-19 04:49:43.129
+!MESSAGE (Build 3.1.3.201205292243) [ERROR]  POST method is not supported
+!STACK 0
+org.apache.http.MethodNotSupportedException: POST method is not supported
+	at com.aptana.webserver.internal.core.builtin.LocalWebServerHttpRequestHandler.handle(LocalWebServerHttpRequestHandler.java:135)
+	at org.apache.http.nio.protocol.BufferingHttpServiceHandler$RequestHandlerAdaptor.handle(BufferingHttpServiceHandler.java:189)
+	at org.apache.http.nio.protocol.SimpleNHttpRequestHandler.handle(SimpleNHttpRequestHandler.java:51)
+	at org.apache.http.nio.protocol.AsyncNHttpServiceHandler.processRequest(AsyncNHttpServiceHandler.java:453)
+	at org.apache.http.nio.protocol.AsyncNHttpServiceHandler.inputReady(AsyncNHttpServiceHandler.java:316)
+	at org.apache.http.nio.protocol.BufferingHttpServiceHandler.inputReady(BufferingHttpServiceHandler.java:131)
+	at org.apache.http.impl.nio.DefaultNHttpServerConnection.consumeInput(DefaultNHttpServerConnection.java:175)
+	at org.apache.http.impl.nio.DefaultServerIOEventDispatch.inputReady(DefaultServerIOEventDispatch.java:154)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:340)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:318)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:278)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:542)
+	at java.lang.Thread.run(Thread.java:680)
+
+!ENTRY com.aptana.webserver.core 4 0 2013-01-19 04:49:49.253
+!MESSAGE (Build 3.1.3.201205292243) [ERROR]  POST method is not supported
+!STACK 0
+org.apache.http.MethodNotSupportedException: POST method is not supported
+	at com.aptana.webserver.internal.core.builtin.LocalWebServerHttpRequestHandler.handle(LocalWebServerHttpRequestHandler.java:135)
+	at org.apache.http.nio.protocol.BufferingHttpServiceHandler$RequestHandlerAdaptor.handle(BufferingHttpServiceHandler.java:189)
+	at org.apache.http.nio.protocol.SimpleNHttpRequestHandler.handle(SimpleNHttpRequestHandler.java:51)
+	at org.apache.http.nio.protocol.AsyncNHttpServiceHandler.processRequest(AsyncNHttpServiceHandler.java:453)
+	at org.apache.http.nio.protocol.AsyncNHttpServiceHandler.inputReady(AsyncNHttpServiceHandler.java:316)
+	at org.apache.http.nio.protocol.BufferingHttpServiceHandler.inputReady(BufferingHttpServiceHandler.java:131)
+	at org.apache.http.impl.nio.DefaultNHttpServerConnection.consumeInput(DefaultNHttpServerConnection.java:175)
+	at org.apache.http.impl.nio.DefaultServerIOEventDispatch.inputReady(DefaultServerIOEventDispatch.java:154)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:340)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:318)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:278)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:542)
+	at java.lang.Thread.run(Thread.java:680)
+
+!ENTRY com.aptana.parsing 4 0 2013-01-19 04:55:14.150
+!MESSAGE (Build 3.1.3.201205292243) [ERROR] com.aptana.parsing/debug/parsing Expecting source to be available for parsing.
+
+!ENTRY com.aptana.webserver.core 4 0 2013-01-19 05:03:33.354
+!MESSAGE (Build 3.1.3.201205292243) [ERROR]  POST method is not supported
+!STACK 0
+org.apache.http.MethodNotSupportedException: POST method is not supported
+	at com.aptana.webserver.internal.core.builtin.LocalWebServerHttpRequestHandler.handle(LocalWebServerHttpRequestHandler.java:135)
+	at org.apache.http.nio.protocol.BufferingHttpServiceHandler$RequestHandlerAdaptor.handle(BufferingHttpServiceHandler.java:189)
+	at org.apache.http.nio.protocol.SimpleNHttpRequestHandler.handle(SimpleNHttpRequestHandler.java:51)
+	at org.apache.http.nio.protocol.AsyncNHttpServiceHandler.processRequest(AsyncNHttpServiceHandler.java:453)
+	at org.apache.http.nio.protocol.AsyncNHttpServiceHandler.inputReady(AsyncNHttpServiceHandler.java:316)
+	at org.apache.http.nio.protocol.BufferingHttpServiceHandler.inputReady(BufferingHttpServiceHandler.java:131)
+	at org.apache.http.impl.nio.DefaultNHttpServerConnection.consumeInput(DefaultNHttpServerConnection.java:175)
+	at org.apache.http.impl.nio.DefaultServerIOEventDispatch.inputReady(DefaultServerIOEventDispatch.java:154)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:340)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:318)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:278)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:542)
+	at java.lang.Thread.run(Thread.java:680)
+
+!ENTRY com.aptana.webserver.core 4 0 2013-01-19 05:04:13.020
+!MESSAGE (Build 3.1.3.201205292243) [ERROR]  POST method is not supported
+!STACK 0
+org.apache.http.MethodNotSupportedException: POST method is not supported
+	at com.aptana.webserver.internal.core.builtin.LocalWebServerHttpRequestHandler.handle(LocalWebServerHttpRequestHandler.java:135)
+	at org.apache.http.nio.protocol.BufferingHttpServiceHandler$RequestHandlerAdaptor.handle(BufferingHttpServiceHandler.java:189)
+	at org.apache.http.nio.protocol.SimpleNHttpRequestHandler.handle(SimpleNHttpRequestHandler.java:51)
+	at org.apache.http.nio.protocol.AsyncNHttpServiceHandler.processRequest(AsyncNHttpServiceHandler.java:453)
+	at org.apache.http.nio.protocol.AsyncNHttpServiceHandler.inputReady(AsyncNHttpServiceHandler.java:316)
+	at org.apache.http.nio.protocol.BufferingHttpServiceHandler.inputReady(BufferingHttpServiceHandler.java:131)
+	at org.apache.http.impl.nio.DefaultNHttpServerConnection.consumeInput(DefaultNHttpServerConnection.java:175)
+	at org.apache.http.impl.nio.DefaultServerIOEventDispatch.inputReady(DefaultServerIOEventDispatch.java:154)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:340)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:318)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:278)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:542)
+	at java.lang.Thread.run(Thread.java:680)
+
+!ENTRY com.aptana.webserver.core 4 0 2013-01-19 05:08:53.620
+!MESSAGE (Build 3.1.3.201205292243) [ERROR]  POST method is not supported
+!STACK 0
+org.apache.http.MethodNotSupportedException: POST method is not supported
+	at com.aptana.webserver.internal.core.builtin.LocalWebServerHttpRequestHandler.handle(LocalWebServerHttpRequestHandler.java:135)
+	at org.apache.http.nio.protocol.BufferingHttpServiceHandler$RequestHandlerAdaptor.handle(BufferingHttpServiceHandler.java:189)
+	at org.apache.http.nio.protocol.SimpleNHttpRequestHandler.handle(SimpleNHttpRequestHandler.java:51)
+	at org.apache.http.nio.protocol.AsyncNHttpServiceHandler.processRequest(AsyncNHttpServiceHandler.java:453)
+	at org.apache.http.nio.protocol.AsyncNHttpServiceHandler.inputReady(AsyncNHttpServiceHandler.java:316)
+	at org.apache.http.nio.protocol.BufferingHttpServiceHandler.inputReady(BufferingHttpServiceHandler.java:131)
+	at org.apache.http.impl.nio.DefaultNHttpServerConnection.consumeInput(DefaultNHttpServerConnection.java:175)
+	at org.apache.http.impl.nio.DefaultServerIOEventDispatch.inputReady(DefaultServerIOEventDispatch.java:154)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:340)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:318)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:278)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:542)
+	at java.lang.Thread.run(Thread.java:680)
+!SESSION 2013-01-19 19:54:45.623 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_37
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/ayoola_al/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/ayoola_al/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-19 19:55:07.941
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2013-01-23 01:53:09.191 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_37
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/ayoola_al/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/ayoola_al/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-23 01:53:38.224
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2013-01-23 18:19:22.485 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_37
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/ayoola_al/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/ayoola_al/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-23 18:20:09.443
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

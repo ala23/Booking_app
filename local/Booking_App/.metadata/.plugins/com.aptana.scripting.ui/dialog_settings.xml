@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="snippets.popup.settings">
+		<item value="111" key="com.aptana.snippets.ui.views.SnippetPopupDialogDIALOG_HEIGHT"/>
+		<item value="239" key="com.aptana.snippets.ui.views.SnippetPopupDialogDIALOG_WIDTH"/>
+	</section>
+</section>

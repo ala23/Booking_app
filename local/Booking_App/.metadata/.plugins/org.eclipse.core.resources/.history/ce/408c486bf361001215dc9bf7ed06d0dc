@@ -3,7 +3,7 @@
 	<body>
 
 		<?php
-		include #{$TM_SELECTED_TEXT}'navigation.php';
+		include 'navigation.php';
 		$toemail = "ayoola_al@yahoo.com";
 		$error_field = "";
 		$error_message="";

@@ -1,13 +1,4 @@
 Booking_app
 ===========
 
-application for theatre seats online cinema or theratre show booking - still  in its the early  stages.
-It allow user to see list of shows and all seats available -seat number/id /sitting areas /zones ,
-add available seats to a shoopping carts and change their mind to delete /remove seats or cancel their bookin. 
-User can view what  is in their shopping cart at any stage.Aslo allow registered users to view a list of all their previouss bookings. 
-Users  can choose to register or not . After  users confirms their booking an email receipt is instantly send to the users' email address.
- 
- Need to do: 
-1.Tidy up the starpup database .Database connections 
-2. GUI design/Template /CSS
-3.necessary configutrations as need be
+web application for booking theatre show/cinema seats .Still in the early development stages.The application allow user to see the list of shows and all the seats available for particular show -seat are based on seating area or zones .Users are able to add available seats to a shopping carts and change their mind either by removing seats in cart or cancel their booking. Users can also view what is in their shopping cart at any stage.Also allows registered users to view a detail list of all their previous bookings. Users can choose to register for membership . After users confirms their booking a notification email / copy of receipt is instantly send to the users' email. Need to do: 1.Tidy up the startup database and database connections 2. GUI design/template /css .3.Necessary configurations and setting as need be
